@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.Titulo{
+  color: black;
+  font-weight: bold;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.NavBar .Titulo {
+  text-decoration: none;
+}
+
+
+.CartWidget{
+  display: flex;
+  justify-content: center;
+}
+
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:aquamarine ;
+}
+
+.Categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ActiveOption {
+  color: blue;
+}
+
+.CartWidget {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+
+.NavBar .Option {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 35px;
+  
+}
+
+.Titulo {
+  text-decoration: none;
+}
+
+.Counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.decrement {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 10px;
+  margin: 25px;
+}
+
+.increment {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 10px;
+  margin: 25px;
+}
+
+.Number {
+  font-size: 24px;
+}
+
+.Agregar {
+  display: block;
+  margin: 10px auto 0;
+  width: 200px;
+}
